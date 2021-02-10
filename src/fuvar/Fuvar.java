@@ -17,6 +17,35 @@ class Fuvar {
         this.borr = Double.parseDouble(s[5]);
         this.fizMod = s[6];
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getIndulas() {
+        return indulas;
+    }
+
+    public int getIdo() {
+        return ido;
+    }
+
+    public double getTavolsag() {
+        return tavolsag;
+    }
+
+    public double getVdij() {
+        return vdij;
+    }
+
+    public double getBorr() {
+        return borr;
+    }
+
+    public String getFizMod() {
+        return fizMod;
+    }
+    
     
     
 }
